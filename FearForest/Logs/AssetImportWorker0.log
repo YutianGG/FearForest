@@ -1,0 +1,1609 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.21f1 (4907324dc95b) revision 4785970'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'zh' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.2.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/FearForest/FearForest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55485
+Successfully changed project path to: D:/Unity/FearForest/FearForest
+D:/Unity/FearForest/FearForest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15652] Host "[IP] 192.168.0.167 [Port] 0 [Flags] 2 [Guid] 639189581 [EditorId] 639189581 [Version] 1048832 [Id] WindowsEditor(7,電腦) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15652] Host "[IP] 192.168.0.167 [Port] 0 [Flags] 2 [Guid] 639189581 [EditorId] 639189581 [Version] 1048832 [Id] WindowsEditor(7,電腦) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.21f1 (4907324dc95b)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.2.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/FearForest/FearForest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12012 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.2.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.2.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.2.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.2.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001968 seconds.
+- Loaded All Assemblies, in  0.177 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (101ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (74ms)
+				TypeCache.Initialize (74ms)
+					TypeCache.ScanAssembly (73ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (116ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.388 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling:
+	ReloadAssembly (118ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		LoadAllAssembliesAndSetupDomain (269ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+				TypeCache.Initialize (157ms)
+					TypeCache.ScanAssembly (155ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.3 KB). Loaded Objects now: 3631.
+Memory consumption went from 111.3 MB to 111.2 MB.
+Total: 1.868300 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.615600 ms  DeleteObjects: 0.074500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 118123.247142 seconds.
+  path: Assets/_Make A Game Series_/FullFPS, Tutorial #1/CrosshairPack
+  artifactKey: Guid(917276fcef56fa34fb30c765cde745bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Make A Game Series_/FullFPS, Tutorial #1/CrosshairPack using Guid(917276fcef56fa34fb30c765cde745bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c502b25cfeeeadf32cc186bc5a8d59f0') in 0.002134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.366 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (126ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		LoadAllAssembliesAndSetupDomain (241ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+				TypeCache.Initialize (146ms)
+					TypeCache.ScanAssembly (142ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (70.3 KB). Loaded Objects now: 3557.
+Memory consumption went from 108.3 MB to 108.2 MB.
+Total: 1.891200 ms (FindLiveObjects: 0.156100 ms CreateObjectMapping: 0.053700 ms MarkObjects: 1.605000 ms  DeleteObjects: 0.075800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 165.847468 seconds.
+  path: Assets/Map/MapFBXFile.fbx
+  artifactKey: Guid(7eba3fdf68aa1ed499a32655f9b87cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapFBXFile.fbx using Guid(7eba3fdf68aa1ed499a32655f9b87cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ae132687f0ca72bb55f905308789dc') in 0.268944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.382 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.446 seconds
+Domain Reload Profiling:
+	ReloadAssembly (123ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		LoadAllAssembliesAndSetupDomain (259ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+				TypeCache.Initialize (159ms)
+					TypeCache.ScanAssembly (155ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.6 KB). Loaded Objects now: 3617.
+Memory consumption went from 113.5 MB to 113.4 MB.
+Total: 1.716300 ms (FindLiveObjects: 0.139400 ms CreateObjectMapping: 0.042300 ms MarkObjects: 1.504500 ms  DeleteObjects: 0.029600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223.011857 seconds.
+  path: Assets/MiscTextures
+  artifactKey: Guid(0114863763c62604fbba8402ee056638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiscTextures using Guid(0114863763c62604fbba8402ee056638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d6f8588e95710e3ff627fca6082303') in 0.001671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.575967 seconds.
+  path: Assets/Map
+  artifactKey: Guid(caf7bee41493fcb41921c83c4e29b65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map using Guid(caf7bee41493fcb41921c83c4e29b65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f9a29ca3d762437810ab23ff16868f') in 0.000358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.427 seconds
+Domain Reload Profiling:
+	ReloadAssembly (134ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		LoadAllAssembliesAndSetupDomain (380ms)
+			LoadAssemblies (244ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+				TypeCache.Initialize (169ms)
+					TypeCache.ScanAssembly (163ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (11.5 MB). Loaded Objects now: 3628.
+Memory consumption went from 126.9 MB to 115.4 MB.
+Total: 2.140400 ms (FindLiveObjects: 0.133800 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.467700 ms  DeleteObjects: 0.493700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 275.057006 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE
+  artifactKey: Guid(5940ab29e102975419588524b8041c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE using Guid(5940ab29e102975419588524b8041c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491b2d8ab8ccda7bd7cb464b96f49dba') in 0.001440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.365 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (119ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		LoadAllAssembliesAndSetupDomain (246ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+				TypeCache.Initialize (152ms)
+					TypeCache.ScanAssembly (149ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (11.5 MB). Loaded Objects now: 3631.
+Memory consumption went from 126.8 MB to 115.3 MB.
+Total: 2.230300 ms (FindLiveObjects: 0.141600 ms CreateObjectMapping: 0.047000 ms MarkObjects: 1.540500 ms  DeleteObjects: 0.500400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.367 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.447 seconds
+Domain Reload Profiling:
+	ReloadAssembly (120ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (247ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+				TypeCache.Initialize (148ms)
+					TypeCache.ScanAssembly (144ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (11.5 MB). Loaded Objects now: 3634.
+Memory consumption went from 127.1 MB to 115.6 MB.
+Total: 2.118100 ms (FindLiveObjects: 0.142200 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.474100 ms  DeleteObjects: 0.463800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92.182807 seconds.
+  path: Assets/Map/MapBlenderFile.blend
+  artifactKey: Guid(392cf603e49eaa74a941a0d174750361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/MapBlenderFile.blend using Guid(392cf603e49eaa74a941a0d174750361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a344dff5c12414a57f88d5224f78859c') in 0.009897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 90.355375 seconds.
+  path: Assets/Map/New Folder
+  artifactKey: Guid(0650df64a5e49f24ca478e1b75dea3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/New Folder using Guid(0650df64a5e49f24ca478e1b75dea3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593c2cc64b1a0c7a3bfdfca4acc050c2') in 0.000402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.420933 seconds.
+  path: Assets/Map/Material
+  artifactKey: Guid(0650df64a5e49f24ca478e1b75dea3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Material using Guid(0650df64a5e49f24ca478e1b75dea3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bc68e24826e8f48290970637cdeea7') in 0.000350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.875559 seconds.
+  path: Assets/MiscTextures/Bricks.jpg
+  artifactKey: Guid(6371b5115d33ec040a49909a4c030ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiscTextures/Bricks.jpg using Guid(6371b5115d33ec040a49909a4c030ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b5c54164e75127cd9057d260ebcda0') in 0.035813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.266391 seconds.
+  path: Assets/MiscTextures/Cloth3.jpg
+  artifactKey: Guid(65fda06479b5165458dbb4f22f85c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiscTextures/Cloth3.jpg using Guid(65fda06479b5165458dbb4f22f85c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853d81ea4facfd62bd28114e9536f941') in 0.015586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.609033 seconds.
+  path: Assets/MiscTextures/Bricks2.jpg
+  artifactKey: Guid(c761e95462949a24fa81aee96202371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiscTextures/Bricks2.jpg using Guid(c761e95462949a24fa81aee96202371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ca55fcfee33ed95aa2a5dfdfe440bd') in 0.028435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.973948 seconds.
+  path: Assets/Models/Arms/Arms.mat
+  artifactKey: Guid(50e4233ac14f218418285c99558ba3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Arms/Arms.mat using Guid(50e4233ac14f218418285c99558ba3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78966bdaf224adbf0feb4e1bf2214c98') in 0.028055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.106856 seconds.
+  path: Assets/Models/Glock/Cartrage.mat
+  artifactKey: Guid(dd3fb91b409a2394184725daadf2ac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Glock/Cartrage.mat using Guid(dd3fb91b409a2394184725daadf2ac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c507e1032960b82e34a46cf3f1bc25') in 0.129616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Big Oak Tree/Models/Materials/BillboardBigOak01.mat
+  artifactKey: Guid(13a8a9b378056f843ae4457427438646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Oak Tree/Models/Materials/BillboardBigOak01.mat using Guid(13a8a9b378056f843ae4457427438646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527f085ff5dd1b1549c9734a39405a1a') in 0.439545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Chest/Chest.fbx
+  artifactKey: Guid(904bd775aff58054f92f9667cc6aabbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chest/Chest.fbx using Guid(904bd775aff58054f92f9667cc6aabbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871bc7b2953f80f57e9800f532deecac') in 0.037430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.066116 seconds.
+  path: Assets/Models/Chainsaw/557750dc089c439fad6d04c049446805.obj
+  artifactKey: Guid(05257d178b3d6934bb5d59314e9d9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chainsaw/557750dc089c439fad6d04c049446805.obj using Guid(05257d178b3d6934bb5d59314e9d9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9ce28badc448ff14dcb822adda486d') in 0.020341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.074277 seconds.
+  path: Assets/UI/Satan Text.ttf
+  artifactKey: Guid(ed656d3c7a755694b9adf67c8db3e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Satan Text.ttf using Guid(ed656d3c7a755694b9adf67c8db3e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3952bdc832d1e843e4792e18fdc325f') in 0.017758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.277245 seconds.
+  path: Assets/Models/Glock/Glock.mat
+  artifactKey: Guid(e7a3c7038d9fc484c90c180b7bb4b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Glock/Glock.mat using Guid(e7a3c7038d9fc484c90c180b7bb4b5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeb69496f803272f8331d95cef1f36d') in 0.012316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.687616 seconds.
+  path: Assets/Models/Key/Key.fbx
+  artifactKey: Guid(d00bb22361328ba4a9facd179960ae2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Key/Key.fbx using Guid(d00bb22361328ba4a9facd179960ae2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142c6ff5efc722470ed0daa8428e091e') in 0.016389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.433292 seconds.
+  path: Assets/Models/Glock/Low Poly Glock 19.fbx
+  artifactKey: Guid(1228a14cb764ec548b710d0ca841bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Glock/Low Poly Glock 19.fbx using Guid(1228a14cb764ec548b710d0ca841bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a94aa026fd21edad8a94f15205d664d') in 0.055109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.375 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling:
+	ReloadAssembly (125ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		LoadAllAssembliesAndSetupDomain (250ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+				TypeCache.Initialize (146ms)
+					TypeCache.ScanAssembly (142ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3645.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.504300 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.051400 ms MarkObjects: 1.734900 ms  DeleteObjects: 0.503200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.351 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (117ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (234ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+				TypeCache.Initialize (140ms)
+					TypeCache.ScanAssembly (136ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3648.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.688500 ms (FindLiveObjects: 0.139000 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.800200 ms  DeleteObjects: 0.706600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (125ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (254ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+				TypeCache.Initialize (148ms)
+					TypeCache.ScanAssembly (143ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3651.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.359700 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.502200 ms  DeleteObjects: 0.660400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.363 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (119ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (245ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+				TypeCache.Initialize (148ms)
+					TypeCache.ScanAssembly (144ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3654.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.996500 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.080600 ms MarkObjects: 2.158800 ms  DeleteObjects: 0.479500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.357 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (118ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (238ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+				TypeCache.Initialize (143ms)
+					TypeCache.ScanAssembly (140ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3657.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.422000 ms (FindLiveObjects: 0.136200 ms CreateObjectMapping: 0.097400 ms MarkObjects: 1.681200 ms  DeleteObjects: 0.506400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.360 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (119ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (240ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+				TypeCache.Initialize (142ms)
+					TypeCache.ScanAssembly (138ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3660.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.309200 ms (FindLiveObjects: 0.138100 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.682700 ms  DeleteObjects: 0.445200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.351 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (119ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		LoadAllAssembliesAndSetupDomain (231ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+				TypeCache.Initialize (140ms)
+					TypeCache.ScanAssembly (137ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3663.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.282600 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.108800 ms MarkObjects: 1.553800 ms  DeleteObjects: 0.427900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.366 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (119ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		LoadAllAssembliesAndSetupDomain (247ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+				TypeCache.Initialize (150ms)
+					TypeCache.ScanAssembly (147ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3666.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.392300 ms (FindLiveObjects: 0.140600 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.641200 ms  DeleteObjects: 0.566400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.353 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (118ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		LoadAllAssembliesAndSetupDomain (236ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+				TypeCache.Initialize (140ms)
+					TypeCache.ScanAssembly (136ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3669.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.527200 ms (FindLiveObjects: 0.146200 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.842400 ms  DeleteObjects: 0.495400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.364 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling:
+	ReloadAssembly (119ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (245ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+				TypeCache.Initialize (141ms)
+					TypeCache.ScanAssembly (137ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3672.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.646000 ms (FindLiveObjects: 0.169200 ms CreateObjectMapping: 0.049000 ms MarkObjects: 1.861400 ms  DeleteObjects: 0.565700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\FearForest\FearForest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.348 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal.Editor' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor/ALP8310_ControllerGlobal.Editor.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Assembly with name 'ALP8310_ControllerGlobal' already exists (Assets/Big Oak Tree/Core/Scripts/Controller/ALP8310_ControllerGlobal.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.451 seconds
+Domain Reload Profiling:
+	ReloadAssembly (118ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (230ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+				TypeCache.Initialize (138ms)
+					TypeCache.ScanAssembly (135ms)
+				ResolveRequiredComponents (2ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (9.2 MB). Loaded Objects now: 3675.
+Memory consumption went from 127.4 MB to 118.2 MB.
+Total: 2.607700 ms (FindLiveObjects: 0.151900 ms CreateObjectMapping: 0.043600 ms MarkObjects: 1.921400 ms  DeleteObjects: 0.489800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
