@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
     // Movement Settings:
     public float walkSpeed = 3f;
     public float runSpeed = 5f;
-    public float jumpPower = 0f;
     public float gravity = 10f;
 
     // Camera Settings:
@@ -19,15 +18,8 @@ public class PlayerController : MonoBehaviour
     public float lookXLimit = 75f;
     public float cameraRotationSmooth = 5f;
 
-    // Ground Sounds:
-    public AudioClip[] woodFootstepSounds;
-    public AudioClip[] tileFootstepSounds;
-    public AudioClip[] carpetFootstepSounds;
-    public Transform footstepAudioPosition;
     public AudioSource audioSource;
 
-    private bool isWalking = false;
-    private bool isFootstepCoroutineRunning = false;
     private AudioClip[] currentFootstepSounds;
 
     Vector3 moveDirection = Vector3.zero;
@@ -43,13 +35,11 @@ public class PlayerController : MonoBehaviour
     private bool canMove = true;
 
     CharacterController characterController;
-
     void Start()
     {
         characterController = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        currentFootstepSounds = woodFootstepSounds;
     }
 
     void Update()
@@ -65,19 +55,9 @@ public class PlayerController : MonoBehaviour
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
-        // Jumping
-        if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
-        {
-            moveDirection.y = jumpPower;
-        }
-        else
-        {
-            moveDirection.y = movementDirectionY;
-        }
-
         if (!characterController.isGrounded)
         {
-            moveDirection.y -= gravity * Time.deltaTime;
+            moveDirection.y -= gravity ;
         }
 
         characterController.Move(moveDirection * Time.deltaTime);
@@ -115,62 +95,5 @@ public class PlayerController : MonoBehaviour
             playerCam.GetComponent<Camera>().fieldOfView = Mathf.Lerp(playerCam.fieldOfView, initialFOV, Time.deltaTime * cameraZoomSmooth);
         }
 
-        // Play footstep sounds when walking
-        if ((curSpeedX != 0f || curSpeedY != 0f) && !isWalking && !isFootstepCoroutineRunning)
-        {
-            isWalking = true;
-            StartCoroutine(PlayFootstepSounds(1.3f / (isRunning ? runSpeed : walkSpeed)));
-        }
-        else if (curSpeedX == 0f && curSpeedY == 0f)
-        {
-            isWalking = false;
-        }
-    }
-
-    /// <summary>
-    /// Sound
-    /// </summary>
-    /// <returns></returns>
-    IEnumerator PlayFootstepSounds(float footstepDelay)
-    {
-        isFootstepCoroutineRunning = true;
-
-        while (isWalking)
-        {
-            if (currentFootstepSounds.Length > 0)
-            {
-                int randomIndex = Random.Range(0, currentFootstepSounds.Length);
-                audioSource.transform.position = footstepAudioPosition.position;
-                audioSource.clip = currentFootstepSounds[randomIndex];
-                audioSource.Play();
-                yield return new WaitForSeconds(footstepDelay);
-            }
-            else
-            {
-                yield break;
-            }
-        }
-
-        isFootstepCoroutineRunning = false;
-    }
-
-    /// <summary>
-    /// Trigger
-    /// </summary>
-    /// <param name="other"></param>
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Wood"))
-        {
-            currentFootstepSounds = woodFootstepSounds;
-        }
-        else if (other.CompareTag("Tile"))
-        {
-            currentFootstepSounds = tileFootstepSounds;
-        }
-        else if (other.CompareTag("Carpet"))
-        {
-            currentFootstepSounds = carpetFootstepSounds;
-        }
     }
 }

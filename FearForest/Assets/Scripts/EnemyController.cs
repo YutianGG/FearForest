@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
-
+using UnityEngine.SceneManagement;
 public class EnemyController : MonoBehaviour
 {
     public Transform[] waypoints;
     public float idleTime = 2f;
     public float walkSpeed = 2f; // Walking speed.
     public float chaseSpeed = 4f; // Chasing speed.
+    private float saveSpeed = 4f;
     public float sightDistance = 10f;
     public AudioClip idleSound;
     public AudioClip walkingSound;
@@ -26,6 +27,7 @@ public class EnemyController : MonoBehaviour
 
     private void Start()
     {
+        saveSpeed = chaseSpeed;
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -40,7 +42,7 @@ public class EnemyController : MonoBehaviour
             case EnemyState.Idle:
                 idleTimer += Time.deltaTime;
                 animator.SetBool("IsWalking", false);
-                animator.SetBool("IsChasing", false); // Ensure IsChasing is set to false in the idle state.
+                animator.SetBool("IsChasing", false); 
                 PlaySound(idleSound);
 
                 if (idleTimer >= idleTime)
@@ -54,7 +56,7 @@ public class EnemyController : MonoBehaviour
             case EnemyState.Walk:
                 idleTimer = 0f;
                 animator.SetBool("IsWalking", true);
-                animator.SetBool("IsChasing", false); // Set IsChasing to false when walking.
+                animator.SetBool("IsChasing", false); 
                 PlaySound(walkingSound);
 
                 if (agent.remainingDistance <= agent.stoppingDistance)
@@ -72,7 +74,7 @@ public class EnemyController : MonoBehaviour
                 isChasingAnimation = true; // Set to true in chase state.
                 animator.SetBool("IsChasing", true); // Set IsChasing to true in chase state.
 
-                // Play chasing sound.
+                //  chasing Player
                 PlaySound(chasingSound);
 
                 // Check if the player is out of sight and go back to the walk state.
@@ -95,7 +97,6 @@ public class EnemyController : MonoBehaviour
             if (hit.collider.CompareTag("Player"))
             {
                 currentState = EnemyState.Chase;
-                Debug.Log("Player detected!");
             }
         }
     }
@@ -119,14 +120,25 @@ public class EnemyController : MonoBehaviour
     {
         agent.SetDestination(waypoints[currentWaypointIndex].position);
         currentState = EnemyState.Walk;
-        agent.speed = walkSpeed; // Set the walking speed.
+        agent.speed = walkSpeed;
         animator.enabled = true;
     }
 
-    // Draw a green raycast line at all times and switch to red when the player is detected.
-    private void OnDrawGizmos()
+    void OnTriggerEnter(Collider other)
     {
-        Gizmos.color = currentState == EnemyState.Chase ? Color.red : Color.green;
-        Gizmos.DrawLine(transform.position, player.position);
+        if (other.gameObject.tag == "Hit") 
+        {
+            chaseSpeed -= 2f;
+            Invoke("Recover", 3f);
+        }
+        if (other.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+
+    }
+    private void Recover()
+    {
+        chaseSpeed = saveSpeed;
     }
 }

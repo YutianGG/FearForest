@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pistol : MonoBehaviour
 {
     public int maxAmmoInMag = 10;       // Maximum ammo capacity in the magazine
-    public int maxAmmoInStorage = 30;   // Maximum ammo capacity in the storage
+    public int maxAmmoInStorage = 60;   // Maximum ammo capacity in the storage
     public float shootCooldown = 0.5f;  // Cooldown time between shots
     public float reloadCooldown = 0.5f;  // Cooldown time between shots
     private float switchCooldown = 0.5f;  // Cooldown time between shots
@@ -25,24 +26,26 @@ public class Pistol : MonoBehaviour
     public GameObject cartridgePrefab; // Prefab of the cartridge
     public float cartridgeEjectionForce = 5f; // Force applied to the cartridge
 
-
+    public GameObject text; 
 
     public Animator gun;
     public ParticleSystem muzzleFlash;
     public GameObject muzzleFlashLight;
     public AudioSource shoot;
+    Text textBullet;
 
     void Start()
     {
+        textBullet = text.GetComponent<Text>();
         currentAmmoInMag = maxAmmoInMag;
-        currentAmmoInStorage = maxAmmoInStorage;
+        currentAmmoInStorage = maxAmmoInStorage/2;
         canSwitch = true;
         muzzleFlashLight.SetActive(false);
     }
 
     void Update()
     {
-
+        textBullet.text = currentAmmoInMag+"/"+ currentAmmoInStorage;
         // Update current ammo counts
         currentAmmoInMag = Mathf.Clamp(currentAmmoInMag, 0, maxAmmoInMag);
         currentAmmoInStorage = Mathf.Clamp(currentAmmoInStorage, 0, maxAmmoInStorage);
